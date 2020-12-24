@@ -10,9 +10,9 @@
 
 @implementation LaunchAnimation
 
-//+ (void)load{
-//    [self shareManager];
-//}
++ (void)load{
+    [self shareManager];
+}
 
 +(LaunchAnimation *)shareManager{
     static LaunchAnimation *instance = nil;
